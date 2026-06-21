@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31vmax;
+    height: 31vmax;
+    border: 1vmax solid grey;
+    border-radius: 50vmax;
+    position: relative;
+}
+.boxRed{
+    position: absolute;
+    width: 5vmax;
+    height: 30vmax;
+    background-color: red;
+    border-radius: 3vmax;
+    transform: rotate(30deg);
+}
+.boxBlue{
+    position: absolute;
+    width: 30vmax;
+    height: 5vmax;
+    background-color: blue;
+    border-radius: 3vmax;
+    transform: rotate(30deg);
+}
+.handle{
+    z-index: -1;
+    margin-top: 40vh;
+    position: absolute;
+    width: 5vmax;
+    height: 40vh;
+    background-color: black;
+    border-top-left-radius: 4vmax;
+    border-top-right-radius: 4vmax;
+}
+.boxGreen{
+    position: absolute;
+    width: 5vmax;
+    height: 5vmax;
+    border-radius: 6vmax;
+    background-color: green;
+}
+.button{
+    margin-top: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+#button1{
+    width: 20vmax;
+    height: 5vmax;
+    background-color: tomato;
+    border: none;
+    border-radius: 2vmax;
+    font-size: 2vmax;
+    box-shadow: 0vmax 0vmax 3vmax tomato;
+}
+#button1:hover{
+    box-shadow: 0vmax 0vmax 5vmax tomato;
+}
